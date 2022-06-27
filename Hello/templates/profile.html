@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}Profile{% endblock title %}
+{% block body %}
+welcome {{request.user}}
+<p>
+This is the best website on this planet and you are very lucky to access it</p>
+<a href="/login">Logout</a>
+
+{% endblock body  %}
